@@ -9,6 +9,18 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
+    "/applications/{application-id}/appManagementPolicies": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/applications/{application-id}/appManagementPolicies/{appManagementPolicy-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/applications/{application-id}/appManagementPolicies/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
     "/applications/{application-id}/connectorGroup": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
@@ -34,6 +46,10 @@
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
     "/applications/{application-id}/homeRealmDiscoveryPolicies": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/applications/{application-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
@@ -81,7 +97,19 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
+    "/applications/{application-id}/microsoft.graph.setVerifiedPublisher": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/applications/{application-id}/microsoft.graph.unsetVerifiedPublisher": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
     "/applications/{application-id}/owners": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/applications/{application-id}/owners/{directoryObject-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
@@ -205,11 +233,19 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
+    "/applications/{application-id}/tokenIssuancePolicies/{tokenIssuancePolicy-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
     "/applications/{application-id}/tokenIssuancePolicies/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
     "/applications/{application-id}/tokenLifetimePolicies": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/applications/{application-id}/tokenLifetimePolicies/{tokenLifetimePolicy-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
@@ -353,6 +389,14 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
+    "/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/{application-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/{application-id}/logo": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
     "/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
@@ -390,6 +434,14 @@
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
     "/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/{connectorGroup-id}/applications": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/{connectorGroup-id}/applications/{application-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/{connectorGroup-id}/applications/{application-id}/logo": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
@@ -453,6 +505,18 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
+    "/servicePrincipals/{servicePrincipal-id}/appManagementPolicies": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/servicePrincipals/{servicePrincipal-id}/appManagementPolicies/{appManagementPolicy-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/servicePrincipals/{servicePrincipal-id}/appManagementPolicies/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
     "/servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
@@ -473,11 +537,19 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
+    "/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/{claimsMappingPolicy-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
     "/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
     "/servicePrincipals/{servicePrincipal-id}/createdObjects": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/servicePrincipals/{servicePrincipal-id}/createdObjects/{directoryObject-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
@@ -505,6 +577,10 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
+    "/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
     "/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
@@ -518,6 +594,10 @@
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
     "/servicePrincipals/{servicePrincipal-id}/memberOf": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
@@ -569,6 +649,10 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
+    "/servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants/{oAuth2PermissionGrant-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
     "/servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
@@ -577,11 +661,19 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
+    "/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
     "/servicePrincipals/{servicePrincipal-id}/ownedObjects/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
     "/servicePrincipals/{servicePrincipal-id}/owners": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
@@ -705,6 +797,10 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
+    "/servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies/{tokenIssuancePolicy-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
     "/servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
@@ -713,11 +809,19 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
+    "/servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies/{tokenLifetimePolicy-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
     "/servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },
     "/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Applications.yml"
+    },
+    "/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Applications.yml"
     },

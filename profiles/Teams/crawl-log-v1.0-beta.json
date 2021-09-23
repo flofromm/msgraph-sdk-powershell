@@ -129,7 +129,15 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Teams.yml"
     },
+    "/chats/{chat-id}/microsoft.graph.hideForUser": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
     "/chats/{chat-id}/microsoft.graph.sendActivityNotification": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/chats/{chat-id}/microsoft.graph.unhideForUser": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Teams.yml"
     },
@@ -177,6 +185,322 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Teams.yml"
     },
+    "/groups/{group-id}/team/channels": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/filesFolder": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/filesFolder/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/filesFolder/content": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/members": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/members/{conversationMember-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/messages": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/messages/{chatMessage-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/messages/{chatMessage-id}/hostedContents": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/messages/{chatMessage-id}/replies": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/tabs": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/tabs/{teamsTab-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/tabs/{teamsTab-id}/teamsApp": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/channels/{channel-id}/tabs/{teamsTab-id}/teamsApp/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/group": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/group/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/installedApps": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/installedApps/{teamsAppInstallation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/installedApps/{teamsAppInstallation-id}/teamsApp": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/installedApps/{teamsAppInstallation-id}/teamsApp/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/installedApps/{teamsAppInstallation-id}/teamsAppDefinition": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/installedApps/{teamsAppInstallation-id}/teamsAppDefinition/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/members": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/members/{conversationMember-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/operations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/operations/{teamsAsyncOperation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/owners": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/owners/{user-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/owners/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/permissionGrants": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/permissionGrants/{resourceSpecificPermissionGrant-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/photo": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/photo/$value": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/filesFolder": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/filesFolder/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/filesFolder/content": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/members": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/members/{conversationMember-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/messages": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/messages/{chatMessage-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/messages/{chatMessage-id}/hostedContents": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/messages/{chatMessage-id}/replies": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/tabs": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/tabs/{teamsTab-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/tabs/{teamsTab-id}/teamsApp": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/primaryChannel/tabs/{teamsTab-id}/teamsApp/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/offerShiftRequests": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/offerShiftRequests/{offerShiftRequest-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/openShiftChangeRequests": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/openShiftChangeRequests/{openShiftChangeRequest-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/openShifts": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/openShifts/{openShift-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/schedulingGroups": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/schedulingGroups/{schedulingGroup-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/shifts": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/shifts/{shift-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/swapShiftsChangeRequests": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/swapShiftsChangeRequests/{swapShiftsChangeRequest-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/timeCards": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/timeCards/{timeCard-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/timeOffReasons": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/timeOffReasons/{timeOffReason-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/timeOffRequests": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/timeOffRequests/{timeOffRequest-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/timesOff": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/schedule/timesOff/{timeOff-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/tags": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/tags/{teamworkTag-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/tags/{teamworkTag-id}/members": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/tags/{teamworkTag-id}/members/{teamworkTagMember-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/template": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/groups/{group-id}/team/template/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
     "/teams": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Teams.yml"
@@ -194,6 +518,10 @@
       "originalLocation": "/openApiDocs/beta/Teams.yml"
     },
     "/teams/{team-id}/channels/{channel-id}/filesFolder": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/teams/{team-id}/channels/{channel-id}/filesFolder/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Teams.yml"
     },
@@ -361,6 +689,10 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Teams.yml"
     },
+    "/teams/{team-id}/owners/{user-id}/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
     "/teams/{team-id}/owners/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Teams.yml"
@@ -386,6 +718,10 @@
       "originalLocation": "/openApiDocs/beta/Teams.yml"
     },
     "/teams/{team-id}/primaryChannel/filesFolder": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/teams/{team-id}/primaryChannel/filesFolder/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Teams.yml"
     },
@@ -625,7 +961,103 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Teams.yml"
     },
+    "/users/{user-id}/chats/{chat-id}/installedApps": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/installedApps/{teamsAppInstallation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/installedApps/{teamsAppInstallation-id}/teamsApp": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/installedApps/{teamsAppInstallation-id}/teamsApp/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/installedApps/{teamsAppInstallation-id}/teamsAppDefinition": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/installedApps/{teamsAppInstallation-id}/teamsAppDefinition/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/lastMessagePreview": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/members": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/members/{conversationMember-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/messages": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/messages/{chatMessage-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/messages/{chatMessage-id}/hostedContents": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/messages/{chatMessage-id}/replies": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/operations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/operations/{teamsAsyncOperation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/permissionGrants": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/permissionGrants/{resourceSpecificPermissionGrant-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/tabs": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/tabs/{teamsTab-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/tabs/{teamsTab-id}/teamsApp": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/chats/{chat-id}/tabs/{teamsTab-id}/teamsApp/$ref": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
     "/users/{user-id}/joinedTeams": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Teams.yml"
+    },
+    "/users/{user-id}/joinedTeams/{team-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Teams.yml"
     },

@@ -121,6 +121,14 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/CloudCommunications.yml"
     },
+    "/communications/calls/{call-id}/participants/{participant-id}/microsoft.graph.startHoldMusic": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/CloudCommunications.yml"
+    },
+    "/communications/calls/{call-id}/participants/{participant-id}/microsoft.graph.stopHoldMusic": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/CloudCommunications.yml"
+    },
     "/communications/calls/{call-id}/participants/microsoft.graph.invite": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/CloudCommunications.yml"

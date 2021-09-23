@@ -141,6 +141,14 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/CloudCommunications.yml"
     },
+    "/communications/presences/{presence-id}/microsoft.graph.clearPresence": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/CloudCommunications.yml"
+    },
+    "/communications/presences/{presence-id}/microsoft.graph.setPresence": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/CloudCommunications.yml"
+    },
     "/users/{user-id}/onlineMeetings": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/CloudCommunications.yml"
