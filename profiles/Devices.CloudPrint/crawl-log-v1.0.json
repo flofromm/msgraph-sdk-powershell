@@ -33,6 +33,10 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
     },
+    "/print/printers/{printer-id}/connectors/{printConnector-id}/$ref": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
+    },
     "/print/printers/{printer-id}/connectors/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
@@ -42,6 +46,10 @@
       "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
     },
     "/print/printers/{printer-id}/shares": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
+    },
+    "/print/printers/{printer-id}/shares/{printerShare-id}/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
     },
@@ -97,11 +105,19 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
     },
+    "/print/shares/{printerShare-id}/allowedGroups/{group-id}/$ref": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
+    },
     "/print/shares/{printerShare-id}/allowedGroups/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
     },
     "/print/shares/{printerShare-id}/allowedUsers": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
+    },
+    "/print/shares/{printerShare-id}/allowedUsers/{user-id}/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
     },
@@ -114,10 +130,6 @@
       "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
     },
     "/print/shares/{printerShare-id}/printer/$ref": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
-    },
-    "/print/shares/{printerShare-id}/printer/microsoft.graph.restoreFactoryDefaults": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Devices.CloudPrint.yml"
     },

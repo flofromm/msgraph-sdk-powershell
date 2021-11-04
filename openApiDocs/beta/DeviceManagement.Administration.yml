@@ -3075,6 +3075,44 @@ paths:
         nextLinkName: '@odata.nextLink'
         operationName: listMore
       x-ms-docs-operation-type: operation
+  '/deviceManagement/groupPolicyCategories/{groupPolicyCategory-id}/children/{groupPolicyCategory-id1}/$ref':
+    delete:
+      tags:
+        - deviceManagement.groupPolicyCategory
+      summary: Delete ref of navigation property children for deviceManagement
+      description: The children categories
+      operationId: deviceManagement.groupPolicyCategories_DeleteGraphRefChildren
+      parameters:
+        - name: groupPolicyCategory-id
+          in: path
+          description: 'key: id of groupPolicyCategory'
+          required: true
+          schema:
+            type: string
+          x-ms-docs-key-type: groupPolicyCategory
+        - name: groupPolicyCategory-id1
+          in: path
+          description: 'key: id of groupPolicyCategory'
+          required: true
+          schema:
+            type: string
+          x-ms-docs-key-type: groupPolicyCategory
+        - name: If-Match
+          in: header
+          description: ETag
+          schema:
+            type: string
+        - name: '@id'
+          in: query
+          description: Delete Uri
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Success
+        default:
+          $ref: '#/components/responses/error'
+      x-ms-docs-operation-type: operation
   '/deviceManagement/groupPolicyCategories/{groupPolicyCategory-id}/children/$ref':
     get:
       tags:
@@ -3445,6 +3483,44 @@ paths:
       x-ms-pageable:
         nextLinkName: '@odata.nextLink'
         operationName: listMore
+      x-ms-docs-operation-type: operation
+  '/deviceManagement/groupPolicyCategories/{groupPolicyCategory-id}/definitions/{groupPolicyDefinition-id}/$ref':
+    delete:
+      tags:
+        - deviceManagement.groupPolicyCategory
+      summary: Delete ref of navigation property definitions for deviceManagement
+      description: The immediate GroupPolicyDefinition children of the category
+      operationId: deviceManagement.groupPolicyCategories_DeleteGraphRefDefinitions
+      parameters:
+        - name: groupPolicyCategory-id
+          in: path
+          description: 'key: id of groupPolicyCategory'
+          required: true
+          schema:
+            type: string
+          x-ms-docs-key-type: groupPolicyCategory
+        - name: groupPolicyDefinition-id
+          in: path
+          description: 'key: id of groupPolicyDefinition'
+          required: true
+          schema:
+            type: string
+          x-ms-docs-key-type: groupPolicyDefinition
+        - name: If-Match
+          in: header
+          description: ETag
+          schema:
+            type: string
+        - name: '@id'
+          in: query
+          description: Delete Uri
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Success
+        default:
+          $ref: '#/components/responses/error'
       x-ms-docs-operation-type: operation
   '/deviceManagement/groupPolicyCategories/{groupPolicyCategory-id}/definitions/$ref':
     get:
@@ -4097,6 +4173,44 @@ paths:
       x-ms-pageable:
         nextLinkName: '@odata.nextLink'
         operationName: listMore
+      x-ms-docs-operation-type: operation
+  '/deviceManagement/groupPolicyDefinitionFiles/{groupPolicyDefinitionFile-id}/definitions/{groupPolicyDefinition-id}/$ref':
+    delete:
+      tags:
+        - deviceManagement.groupPolicyDefinitionFile
+      summary: Delete ref of navigation property definitions for deviceManagement
+      description: The group policy definitions associated with the file.
+      operationId: deviceManagement.groupPolicyDefinitionFiles_DeleteGraphRefDefinitions
+      parameters:
+        - name: groupPolicyDefinitionFile-id
+          in: path
+          description: 'key: id of groupPolicyDefinitionFile'
+          required: true
+          schema:
+            type: string
+          x-ms-docs-key-type: groupPolicyDefinitionFile
+        - name: groupPolicyDefinition-id
+          in: path
+          description: 'key: id of groupPolicyDefinition'
+          required: true
+          schema:
+            type: string
+          x-ms-docs-key-type: groupPolicyDefinition
+        - name: If-Match
+          in: header
+          description: ETag
+          schema:
+            type: string
+        - name: '@id'
+          in: query
+          description: Delete Uri
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Success
+        default:
+          $ref: '#/components/responses/error'
       x-ms-docs-operation-type: operation
   '/deviceManagement/groupPolicyDefinitionFiles/{groupPolicyDefinitionFile-id}/definitions/$ref':
     get:
@@ -9194,6 +9308,44 @@ paths:
         nextLinkName: '@odata.nextLink'
         operationName: listMore
       x-ms-docs-operation-type: operation
+  '/deviceManagement/roleAssignments/{deviceAndAppManagementRoleAssignment-id}/roleScopeTags/{roleScopeTag-id}/$ref':
+    delete:
+      tags:
+        - deviceManagement.deviceAndAppManagementRoleAssignment
+      summary: Delete ref of navigation property roleScopeTags for deviceManagement
+      description: The set of Role Scope Tags defined on the Role Assignment.
+      operationId: deviceManagement.roleAssignments_DeleteGraphRefRoleScopeTags
+      parameters:
+        - name: deviceAndAppManagementRoleAssignment-id
+          in: path
+          description: 'key: id of deviceAndAppManagementRoleAssignment'
+          required: true
+          schema:
+            type: string
+          x-ms-docs-key-type: deviceAndAppManagementRoleAssignment
+        - name: roleScopeTag-id
+          in: path
+          description: 'key: id of roleScopeTag'
+          required: true
+          schema:
+            type: string
+          x-ms-docs-key-type: roleScopeTag
+        - name: If-Match
+          in: header
+          description: ETag
+          schema:
+            type: string
+        - name: '@id'
+          in: query
+          description: Delete Uri
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Success
+        default:
+          $ref: '#/components/responses/error'
+      x-ms-docs-operation-type: operation
   '/deviceManagement/roleAssignments/{deviceAndAppManagementRoleAssignment-id}/roleScopeTags/$ref':
     get:
       tags:
@@ -12413,7 +12565,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get auditEvents from deviceManagement
-      description: Cloud PC audit event.
       operationId: deviceManagement.virtualEndpoint_ListAuditEvents
       parameters:
         - $ref: '#/components/parameters/top'
@@ -12518,7 +12669,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Create new navigation property to auditEvents for deviceManagement
-      description: Cloud PC audit event.
       operationId: deviceManagement.virtualEndpoint_CreateAuditEvents
       requestBody:
         description: New navigation property
@@ -12542,7 +12692,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get auditEvents from deviceManagement
-      description: Cloud PC audit event.
       operationId: deviceManagement.virtualEndpoint_GetAuditEvents
       parameters:
         - name: cloudPcAuditEvent-id
@@ -12601,7 +12750,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Update the navigation property auditEvents in deviceManagement
-      description: Cloud PC audit event.
       operationId: deviceManagement.virtualEndpoint_UpdateAuditEvents
       parameters:
         - name: cloudPcAuditEvent-id
@@ -12628,7 +12776,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Delete navigation property auditEvents for deviceManagement
-      description: Cloud PC audit event.
       operationId: deviceManagement.virtualEndpoint_DeleteAuditEvents
       parameters:
         - name: cloudPcAuditEvent-id
@@ -12654,7 +12801,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get cloudPCs from deviceManagement
-      description: Cloud managed virtual desktops.
       operationId: deviceManagement.virtualEndpoint_ListCloudPCs
       parameters:
         - $ref: '#/components/parameters/top'
@@ -12768,7 +12914,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Create new navigation property to cloudPCs for deviceManagement
-      description: Cloud managed virtual desktops.
       operationId: deviceManagement.virtualEndpoint_CreateCloudPCs
       requestBody:
         description: New navigation property
@@ -12792,7 +12937,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get cloudPCs from deviceManagement
-      description: Cloud managed virtual desktops.
       operationId: deviceManagement.virtualEndpoint_GetCloudPCs
       parameters:
         - name: cloudPC-id
@@ -12854,7 +12998,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Update the navigation property cloudPCs in deviceManagement
-      description: Cloud managed virtual desktops.
       operationId: deviceManagement.virtualEndpoint_UpdateCloudPCs
       parameters:
         - name: cloudPC-id
@@ -12881,7 +13024,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Delete navigation property cloudPCs for deviceManagement
-      description: Cloud managed virtual desktops.
       operationId: deviceManagement.virtualEndpoint_DeleteCloudPCs
       parameters:
         - name: cloudPC-id
@@ -12907,7 +13049,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get deviceImages from deviceManagement
-      description: The image resource on Cloud PC.
       operationId: deviceManagement.virtualEndpoint_ListDeviceImages
       parameters:
         - $ref: '#/components/parameters/top'
@@ -13003,7 +13144,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Create new navigation property to deviceImages for deviceManagement
-      description: The image resource on Cloud PC.
       operationId: deviceManagement.virtualEndpoint_CreateDeviceImages
       requestBody:
         description: New navigation property
@@ -13027,7 +13167,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get deviceImages from deviceManagement
-      description: The image resource on Cloud PC.
       operationId: deviceManagement.virtualEndpoint_GetDeviceImages
       parameters:
         - name: cloudPcDeviceImage-id
@@ -13083,7 +13222,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Update the navigation property deviceImages in deviceManagement
-      description: The image resource on Cloud PC.
       operationId: deviceManagement.virtualEndpoint_UpdateDeviceImages
       parameters:
         - name: cloudPcDeviceImage-id
@@ -13110,7 +13248,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Delete navigation property deviceImages for deviceManagement
-      description: The image resource on Cloud PC.
       operationId: deviceManagement.virtualEndpoint_DeleteDeviceImages
       parameters:
         - name: cloudPcDeviceImage-id
@@ -13376,7 +13513,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get onPremisesConnections from deviceManagement
-      description: A defined collection of Azure resource information that can be used to establish on-premises network connectivity for Cloud PCs.
       operationId: deviceManagement.virtualEndpoint_ListOnPremisesConnections
       parameters:
         - $ref: '#/components/parameters/top'
@@ -13490,7 +13626,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Create new navigation property to onPremisesConnections for deviceManagement
-      description: A defined collection of Azure resource information that can be used to establish on-premises network connectivity for Cloud PCs.
       operationId: deviceManagement.virtualEndpoint_CreateOnPremisesConnections
       requestBody:
         description: New navigation property
@@ -13514,7 +13649,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get onPremisesConnections from deviceManagement
-      description: A defined collection of Azure resource information that can be used to establish on-premises network connectivity for Cloud PCs.
       operationId: deviceManagement.virtualEndpoint_GetOnPremisesConnections
       parameters:
         - name: cloudPcOnPremisesConnection-id
@@ -13576,7 +13710,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Update the navigation property onPremisesConnections in deviceManagement
-      description: A defined collection of Azure resource information that can be used to establish on-premises network connectivity for Cloud PCs.
       operationId: deviceManagement.virtualEndpoint_UpdateOnPremisesConnections
       parameters:
         - name: cloudPcOnPremisesConnection-id
@@ -13603,7 +13736,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Delete navigation property onPremisesConnections for deviceManagement
-      description: A defined collection of Azure resource information that can be used to establish on-premises network connectivity for Cloud PCs.
       operationId: deviceManagement.virtualEndpoint_DeleteOnPremisesConnections
       parameters:
         - name: cloudPcOnPremisesConnection-id
@@ -13629,7 +13761,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get provisioningPolicies from deviceManagement
-      description: Cloud PC provisioning policy.
       operationId: deviceManagement.virtualEndpoint_ListProvisioningPolicies
       parameters:
         - $ref: '#/components/parameters/top'
@@ -13727,7 +13858,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Create new navigation property to provisioningPolicies for deviceManagement
-      description: Cloud PC provisioning policy.
       operationId: deviceManagement.virtualEndpoint_CreateProvisioningPolicies
       requestBody:
         description: New navigation property
@@ -13751,7 +13881,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get provisioningPolicies from deviceManagement
-      description: Cloud PC provisioning policy.
       operationId: deviceManagement.virtualEndpoint_GetProvisioningPolicies
       parameters:
         - name: cloudPcProvisioningPolicy-id
@@ -13814,7 +13943,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Update the navigation property provisioningPolicies in deviceManagement
-      description: Cloud PC provisioning policy.
       operationId: deviceManagement.virtualEndpoint_UpdateProvisioningPolicies
       parameters:
         - name: cloudPcProvisioningPolicy-id
@@ -13841,7 +13969,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Delete navigation property provisioningPolicies for deviceManagement
-      description: Cloud PC provisioning policy.
       operationId: deviceManagement.virtualEndpoint_DeleteProvisioningPolicies
       parameters:
         - name: cloudPcProvisioningPolicy-id
@@ -13867,7 +13994,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get assignments from deviceManagement
-      description: A defined collection of provisioning policy assignments. Represents the set of Microsoft 365 groups and security groups in Azure AD that have provisioning policy assigned. Returned only on $expand. See an example of getting the assignments relationship.
       operationId: deviceManagement.virtualEndpoint.provisioningPolicies_ListAssignments
       parameters:
         - name: cloudPcProvisioningPolicy-id
@@ -13949,7 +14075,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Create new navigation property to assignments for deviceManagement
-      description: A defined collection of provisioning policy assignments. Represents the set of Microsoft 365 groups and security groups in Azure AD that have provisioning policy assigned. Returned only on $expand. See an example of getting the assignments relationship.
       operationId: deviceManagement.virtualEndpoint.provisioningPolicies_CreateAssignments
       parameters:
         - name: cloudPcProvisioningPolicy-id
@@ -13981,7 +14106,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get assignments from deviceManagement
-      description: A defined collection of provisioning policy assignments. Represents the set of Microsoft 365 groups and security groups in Azure AD that have provisioning policy assigned. Returned only on $expand. See an example of getting the assignments relationship.
       operationId: deviceManagement.virtualEndpoint.provisioningPolicies_GetAssignments
       parameters:
         - name: cloudPcProvisioningPolicy-id
@@ -14037,7 +14161,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Update the navigation property assignments in deviceManagement
-      description: A defined collection of provisioning policy assignments. Represents the set of Microsoft 365 groups and security groups in Azure AD that have provisioning policy assigned. Returned only on $expand. See an example of getting the assignments relationship.
       operationId: deviceManagement.virtualEndpoint.provisioningPolicies_UpdateAssignments
       parameters:
         - name: cloudPcProvisioningPolicy-id
@@ -14071,7 +14194,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Delete navigation property assignments for deviceManagement
-      description: A defined collection of provisioning policy assignments. Represents the set of Microsoft 365 groups and security groups in Azure AD that have provisioning policy assigned. Returned only on $expand. See an example of getting the assignments relationship.
       operationId: deviceManagement.virtualEndpoint.provisioningPolicies_DeleteAssignments
       parameters:
         - name: cloudPcProvisioningPolicy-id
@@ -14104,7 +14226,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get servicePlans from deviceManagement
-      description: Cloud PC service plans.
       operationId: deviceManagement.virtualEndpoint_ListServicePlans
       parameters:
         - $ref: '#/components/parameters/top'
@@ -14194,7 +14315,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Create new navigation property to servicePlans for deviceManagement
-      description: Cloud PC service plans.
       operationId: deviceManagement.virtualEndpoint_CreateServicePlans
       requestBody:
         description: New navigation property
@@ -14218,7 +14338,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get servicePlans from deviceManagement
-      description: Cloud PC service plans.
       operationId: deviceManagement.virtualEndpoint_GetServicePlans
       parameters:
         - name: cloudPcServicePlan-id
@@ -14272,7 +14391,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Update the navigation property servicePlans in deviceManagement
-      description: Cloud PC service plans.
       operationId: deviceManagement.virtualEndpoint_UpdateServicePlans
       parameters:
         - name: cloudPcServicePlan-id
@@ -14299,7 +14417,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Delete navigation property servicePlans for deviceManagement
-      description: Cloud PC service plans.
       operationId: deviceManagement.virtualEndpoint_DeleteServicePlans
       parameters:
         - name: cloudPcServicePlan-id
@@ -14325,7 +14442,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get supportedRegions from deviceManagement
-      description: Cloud PC supported regions.
       operationId: deviceManagement.virtualEndpoint_ListSupportedRegions
       parameters:
         - $ref: '#/components/parameters/top'
@@ -14400,7 +14516,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Create new navigation property to supportedRegions for deviceManagement
-      description: Cloud PC supported regions.
       operationId: deviceManagement.virtualEndpoint_CreateSupportedRegions
       requestBody:
         description: New navigation property
@@ -14424,7 +14539,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get supportedRegions from deviceManagement
-      description: Cloud PC supported regions.
       operationId: deviceManagement.virtualEndpoint_GetSupportedRegions
       parameters:
         - name: cloudPcSupportedRegion-id
@@ -14473,7 +14587,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Update the navigation property supportedRegions in deviceManagement
-      description: Cloud PC supported regions.
       operationId: deviceManagement.virtualEndpoint_UpdateSupportedRegions
       parameters:
         - name: cloudPcSupportedRegion-id
@@ -14500,7 +14613,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Delete navigation property supportedRegions for deviceManagement
-      description: Cloud PC supported regions.
       operationId: deviceManagement.virtualEndpoint_DeleteSupportedRegions
       parameters:
         - name: cloudPcSupportedRegion-id
@@ -14526,7 +14638,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get userSettings from deviceManagement
-      description: Cloud PC user settings.
       operationId: deviceManagement.virtualEndpoint_ListUserSettings
       parameters:
         - $ref: '#/components/parameters/top'
@@ -14615,7 +14726,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Create new navigation property to userSettings for deviceManagement
-      description: Cloud PC user settings.
       operationId: deviceManagement.virtualEndpoint_CreateUserSettings
       requestBody:
         description: New navigation property
@@ -14639,7 +14749,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get userSettings from deviceManagement
-      description: Cloud PC user settings.
       operationId: deviceManagement.virtualEndpoint_GetUserSettings
       parameters:
         - name: cloudPcUserSetting-id
@@ -14699,7 +14808,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Update the navigation property userSettings in deviceManagement
-      description: Cloud PC user settings.
       operationId: deviceManagement.virtualEndpoint_UpdateUserSettings
       parameters:
         - name: cloudPcUserSetting-id
@@ -14726,7 +14834,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Delete navigation property userSettings for deviceManagement
-      description: Cloud PC user settings.
       operationId: deviceManagement.virtualEndpoint_DeleteUserSettings
       parameters:
         - name: cloudPcUserSetting-id
@@ -14752,7 +14859,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get assignments from deviceManagement
-      description: 'Represents the set of Microsoft 365 groups and security groups in Azure AD that have cloudPCUserSetting assigned. Returned only on $expand. For an example, see Get cloudPcUserSettingample.'
       operationId: deviceManagement.virtualEndpoint.userSettings_ListAssignments
       parameters:
         - name: cloudPcUserSetting-id
@@ -14837,7 +14943,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Create new navigation property to assignments for deviceManagement
-      description: 'Represents the set of Microsoft 365 groups and security groups in Azure AD that have cloudPCUserSetting assigned. Returned only on $expand. For an example, see Get cloudPcUserSettingample.'
       operationId: deviceManagement.virtualEndpoint.userSettings_CreateAssignments
       parameters:
         - name: cloudPcUserSetting-id
@@ -14869,7 +14974,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Get assignments from deviceManagement
-      description: 'Represents the set of Microsoft 365 groups and security groups in Azure AD that have cloudPCUserSetting assigned. Returned only on $expand. For an example, see Get cloudPcUserSettingample.'
       operationId: deviceManagement.virtualEndpoint.userSettings_GetAssignments
       parameters:
         - name: cloudPcUserSetting-id
@@ -14926,7 +15030,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Update the navigation property assignments in deviceManagement
-      description: 'Represents the set of Microsoft 365 groups and security groups in Azure AD that have cloudPCUserSetting assigned. Returned only on $expand. For an example, see Get cloudPcUserSettingample.'
       operationId: deviceManagement.virtualEndpoint.userSettings_UpdateAssignments
       parameters:
         - name: cloudPcUserSetting-id
@@ -14960,7 +15063,6 @@ paths:
       tags:
         - deviceManagement.virtualEndpoint
       summary: Delete navigation property assignments for deviceManagement
-      description: 'Represents the set of Microsoft 365 groups and security groups in Azure AD that have cloudPCUserSetting assigned. Returned only on $expand. For an example, see Get cloudPcUserSettingample.'
       operationId: deviceManagement.virtualEndpoint.userSettings_DeleteAssignments
       parameters:
         - name: cloudPcUserSetting-id
@@ -15002,7 +15104,6 @@ components:
               nullable: true
             certificate:
               type: string
-              description: Not yet documented
               nullable: true
             certificateSerialNumber:
               type: string
@@ -16499,7 +16600,7 @@ components:
               nullable: true
             displayName:
               type: string
-              description: Administrator-supplied name for the T&C policy.
+              description: 'Administrator-supplied name for the T&C policy. '
             lastModifiedDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
@@ -16668,17 +16769,14 @@ components:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.cloudPcAuditEvent'
-              description: Cloud PC audit event.
             cloudPCs:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.cloudPC'
-              description: Cloud managed virtual desktops.
             deviceImages:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.cloudPcDeviceImage'
-              description: The image resource on Cloud PC.
             galleryImages:
               type: array
               items:
@@ -16687,27 +16785,22 @@ components:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.cloudPcOnPremisesConnection'
-              description: A defined collection of Azure resource information that can be used to establish on-premises network connectivity for Cloud PCs.
             provisioningPolicies:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.cloudPcProvisioningPolicy'
-              description: Cloud PC provisioning policy.
             servicePlans:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.cloudPcServicePlan'
-              description: Cloud PC service plans.
             supportedRegions:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.cloudPcSupportedRegion'
-              description: Cloud PC supported regions.
             userSettings:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.cloudPcUserSetting'
-              description: Cloud PC user settings.
           additionalProperties:
             type: object
     microsoft.graph.cloudPcAuditEvent:
@@ -16718,12 +16811,10 @@ components:
           properties:
             activity:
               type: string
-              description: Friendly name of the activity. Optional.
               nullable: true
             activityDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
-              description: The date time in UTC when the activity was performed. Read-only.
               format: date-time
             activityOperationType:
               $ref: '#/components/schemas/microsoft.graph.cloudPcAuditActivityOperationType'
@@ -16731,25 +16822,20 @@ components:
               $ref: '#/components/schemas/microsoft.graph.cloudPcAuditActivityResult'
             activityType:
               type: string
-              description: The type of activity that was performed. Read-only.
             actor:
               $ref: '#/components/schemas/microsoft.graph.cloudPcAuditActor'
             category:
               $ref: '#/components/schemas/microsoft.graph.cloudPcAuditCategory'
             componentName:
               type: string
-              description: Component name. Read-only.
             correlationId:
               type: string
-              description: 'The client request identifier, used to correlate activity within the system. Read-only.'
             displayName:
               type: string
-              description: Event display name. Read-only.
             resources:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.cloudPcAuditResource'
-              description: List of cloudPcAuditResource objects. Read-only.
           additionalProperties:
             type: object
     microsoft.graph.cloudPC:
@@ -16760,50 +16846,39 @@ components:
           properties:
             displayName:
               type: string
-              description: The Cloud PC display name.
               nullable: true
             gracePeriodEndDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
-              description: 'The date and time when the grace period ends and reprovisioning/deprovisioning happens. Required only if status is inGracePeriod. The timestamp is shown in ISO 8601 format and Coordinated Universal Time (UTC). For example, midnight UTC on Jan 1, 2014 is 2014-01-01T00:00:00Z.'
               format: date-time
               nullable: true
             imageDisplayName:
               type: string
-              description: Name of the OS image that's on the Cloud PC.
               nullable: true
             lastModifiedDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
-              description: 'The Cloud PC''s last modified date and time. The Timestamp type represents date and time information using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 is 2014-01-01T00:00:00Z.'
               format: date-time
             managedDeviceId:
               type: string
-              description: The Cloud PC’s Intune device ID.
               nullable: true
             managedDeviceName:
               type: string
-              description: The Cloud PC’s Intune device name.
               nullable: true
             onPremisesConnectionName:
               type: string
-              description: The on-premises connection that is applied during provisioning of Cloud PCs.
               nullable: true
             provisioningPolicyId:
               type: string
-              description: The Cloud PC's provisioning policy ID.
               nullable: true
             provisioningPolicyName:
               type: string
-              description: The provisioning policy that is applied during provisioning of Cloud PCs.
               nullable: true
             servicePlanId:
               type: string
-              description: The Cloud PC's service plan ID.
               nullable: true
             servicePlanName:
               type: string
-              description: The Cloud PC's service plan name.
               nullable: true
             status:
               $ref: '#/components/schemas/microsoft.graph.cloudPcStatus'
@@ -16811,7 +16886,6 @@ components:
               $ref: '#/components/schemas/microsoft.graph.cloudPcStatusDetails'
             userPrincipalName:
               type: string
-              description: The user principal name (UPN) of the user assigned to the Cloud PC.
               nullable: true
           additionalProperties:
             type: object
@@ -16823,25 +16897,20 @@ components:
           properties:
             displayName:
               type: string
-              description: The image's display name.
               nullable: true
             lastModifiedDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
-              description: 'The data and time that the image was last modified. The time is shown in ISO 8601 format and  Coordinated Universal Time (UTC) time. For example, midnight UTC on Jan 1, 2014 appears as ''2014-01-01T00:00:00Z''.'
               format: date-time
               nullable: true
             operatingSystem:
               type: string
-              description: 'The image''s operating system. For example: Windows 10 Enterprise.'
               nullable: true
             osBuildNumber:
               type: string
-              description: 'The image''s OS build version. For example: 1909.'
               nullable: true
             sourceImageResourceId:
               type: string
-              description: 'The ID of the source image resource on Azure. Required format: ''/subscriptions/{subscription-id}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/images/{imageName}''.'
               nullable: true
             status:
               $ref: '#/components/schemas/microsoft.graph.cloudPcDeviceImageStatus'
@@ -16849,7 +16918,6 @@ components:
               $ref: '#/components/schemas/microsoft.graph.cloudPcDeviceImageStatusDetails'
             version:
               type: string
-              description: 'The image version. For example: 0.0.1, 1.5.13.'
               nullable: true
           additionalProperties:
             type: object
@@ -16913,48 +16981,37 @@ components:
           properties:
             adDomainName:
               type: string
-              description: The fully qualified domain name (FQDN) of the Active Directory domain you want to join.
               nullable: true
             adDomainPassword:
               type: string
-              description: The password associated with adDomainUsername.
               nullable: true
             adDomainUsername:
               type: string
-              description: 'The username of an Active Directory account (user or service account) that has permissions to create computer objects in Active Directory. Required format: admin@contoso.com.'
               nullable: true
             displayName:
               type: string
-              description: The display name for the on-premises connection.
             healthCheckStatus:
               $ref: '#/components/schemas/microsoft.graph.cloudPcOnPremisesConnectionStatus'
             healthCheckStatusDetails:
               $ref: '#/components/schemas/microsoft.graph.cloudPcOnPremisesConnectionStatusDetails'
             inUse:
               type: boolean
-              description: 'When true, the on-premises connection is in use. When false, the connection is not in use. You cannot delete a connection that’s in use. Returned only on $select. For an example that shows how to get the inUse property, see Example 2: Get the selected properties of an on-premises connection, including healthCheckStatusDetails. Read-only.'
             organizationalUnit:
               type: string
-              description: 'The organizational unit (OU) in which the computer account is created. If left null, the OU that’s configured as the default (a well-known computer object container) in your Active Directory domain (OU) is used. Optional.'
               nullable: true
             resourceGroupId:
               type: string
-              description: 'The ID of the target resource group. Required format: ''/subscriptions/{subscription-id}/resourceGroups/{resourceGroupName}''.'
             subnetId:
               type: string
-              description: 'The ID of the target subnet. Required format: ''/subscriptions/{subscription-id}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkId}/subnets/{subnetName}''.'
             subscriptionId:
               type: string
-              description: The ID of the target Azure subscription that’s associated with your tenant.
             subscriptionName:
               type: string
-              description: The name of the target Azure subscription. Read-only.
               nullable: true
             type:
               $ref: '#/components/schemas/microsoft.graph.cloudPcOnPremisesConnectionType'
             virtualNetworkId:
               type: string
-              description: 'The ID of the target virtual network. Required format: ''/subscriptions/{subscription-id}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}''.'
           additionalProperties:
             type: object
     microsoft.graph.cloudPcProvisioningPolicy:
@@ -16965,21 +17022,17 @@ components:
           properties:
             description:
               type: string
-              description: The provisioning policy description.
               nullable: true
             displayName:
               type: string
-              description: The display name for the provisioning policy.
               nullable: true
             domainJoinConfiguration:
               $ref: '#/components/schemas/microsoft.graph.cloudPcDomainJoinConfiguration'
             imageDisplayName:
               type: string
-              description: The display name for the OS image you’re provisioning.
               nullable: true
             imageId:
               type: string
-              description: 'The ID of the OS image you want to provision on Cloud PCs. The format for a gallery type image is: {publisher_offer_sku}. Supported values for each of the parameters are as follows:publisher: Microsoftwindowsdesktop. offer: windows-ent-cpc. sku: 21h1-ent-cpc-m365, 21h1-ent-cpc-os, 20h2-ent-cpc-m365, 20h2-ent-cpc-os, 20h1-ent-cpc-m365, 20h1-ent-cpc-os, 19h2-ent-cpc-m365 and 19h2-ent-cpc-os.'
               nullable: true
             imageType:
               $ref: '#/components/schemas/microsoft.graph.cloudPcProvisioningPolicyImageType'
@@ -16987,13 +17040,11 @@ components:
               $ref: '#/components/schemas/microsoft.graph.microsoftManagedDesktop'
             onPremisesConnectionId:
               type: string
-              description: 'The ID of the cloudPcOnPremisesConnection. To ensure that Cloud PCs have network connectivity and that they domain join, choose a connection with a virtual network that’s validated by the Cloud PC service.'
               nullable: true
             assignments:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.cloudPcProvisioningPolicyAssignment'
-              description: A defined collection of provisioning policy assignments. Represents the set of Microsoft 365 groups and security groups in Azure AD that have provisioning policy assigned. Returned only on $expand. See an example of getting the assignments relationship.
           additionalProperties:
             type: object
     microsoft.graph.cloudPcProvisioningPolicyAssignment:
@@ -17014,18 +17065,15 @@ components:
           properties:
             displayName:
               type: string
-              description: The name for the service plan. Read-only.
             ramInGB:
               maximum: 2147483647
               minimum: -2147483648
               type: integer
-              description: The size of the RAM in GB. Read-only.
               format: int32
             storageInGB:
               maximum: 2147483647
               minimum: -2147483648
               type: integer
-              description: The size of the OS Disk in GB. Read-only.
               format: int32
             type:
               $ref: '#/components/schemas/microsoft.graph.cloudPcServicePlanType'
@@ -17033,13 +17081,11 @@ components:
               maximum: 2147483647
               minimum: -2147483648
               type: integer
-              description: The size of the user profile disk in GB. Read-only.
               format: int32
             vCpuCount:
               maximum: 2147483647
               minimum: -2147483648
               type: integer
-              description: The number of vCPUs. Read-only.
               format: int32
           additionalProperties:
             type: object
@@ -17051,7 +17097,6 @@ components:
           properties:
             displayName:
               type: string
-              description: The name for the supported region. Read-only.
               nullable: true
           additionalProperties:
             type: object
@@ -17064,32 +17109,26 @@ components:
             createdDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
-              description: 'The date and time the setting was created. The Timestamp type represents the date and time information using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 looks like this: ''2014-01-01T00:00:00Z''.'
               format: date-time
               nullable: true
             displayName:
               type: string
-              description: The setting name displayed in the user interface.
               nullable: true
             lastModifiedDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
-              description: 'The last date and time the setting was modified. The Timestamp type represents the date and time information using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 looks like this: ''2014-01-01T00:00:00Z''.'
               format: date-time
               nullable: true
             localAdminEnabled:
               type: boolean
-              description: 'Indicates whether the local admin option is enabled. Default value is false. To enable the local admin option, change the setting to true. If the local admin option is enabled, the end user can be an admin of the Cloud PC device.'
               nullable: true
             selfServiceEnabled:
               type: boolean
-              description: 'Indicates whether the self-service option is enabled. Default value is false. To enable the self-service option, change the setting to true. If the self-service option is enabled, the end user is allowed to perform some self-service operations, such as upgrading the Cloud PC through the end user portal.'
               nullable: true
             assignments:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.cloudPcUserSettingAssignment'
-              description: 'Represents the set of Microsoft 365 groups and security groups in Azure AD that have cloudPCUserSetting assigned. Returned only on $expand. For an example, see Get cloudPcUserSettingample.'
           additionalProperties:
             type: object
     microsoft.graph.cloudPcUserSettingAssignment:
@@ -17101,7 +17140,6 @@ components:
             createdDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
-              description: 'The date and time this assignment was created. The Timestamp type represents the date and time information using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 looks like this: ''2014-01-01T00:00:00Z''.'
               format: date-time
               nullable: true
             target:
@@ -17114,7 +17152,6 @@ components:
       properties:
         id:
           type: string
-          description: Read-only.
       additionalProperties:
         type: object
     microsoft.graph.auditActor:
@@ -17751,48 +17788,38 @@ components:
       properties:
         applicationDisplayName:
           type: string
-          description: Name of the application.
           nullable: true
         applicationId:
           type: string
-          description: Azure AD application ID.
           nullable: true
         ipAddress:
           type: string
-          description: IP address.
           nullable: true
         remoteTenantId:
           type: string
-          description: The delegated partner tenant ID.
           nullable: true
         remoteUserId:
           type: string
-          description: The delegated partner user ID.
           nullable: true
         servicePrincipalName:
           type: string
-          description: Service Principal Name (SPN).
           nullable: true
         type:
           $ref: '#/components/schemas/microsoft.graph.cloudPcAuditActorType'
         userId:
           type: string
-          description: Azure AD user ID.
           nullable: true
         userPermissions:
           type: array
           items:
             type: string
-          description: List of user permissions and application permissions when the audit event was performed.
         userPrincipalName:
           type: string
-          description: User Principal Name (UPN).
           nullable: true
         userRoleScopeTags:
           type: array
           items:
             $ref: '#/components/schemas/microsoft.graph.cloudPcUserRoleScopeTagInfo'
-          description: List of role scope tags.
       additionalProperties:
         type: object
     microsoft.graph.cloudPcAuditCategory:
@@ -17807,19 +17834,15 @@ components:
       properties:
         displayName:
           type: string
-          description: The resource entity display name.
           nullable: true
         modifiedProperties:
           type: array
           items:
             $ref: '#/components/schemas/microsoft.graph.cloudPcAuditProperty'
-          description: A list of modified properties.
         resourceId:
           type: string
-          description: The ID of the audit resource.
         type:
           type: string
-          description: The type of the audit resource.
       additionalProperties:
         type: object
     microsoft.graph.cloudPcStatus:
@@ -17843,14 +17866,11 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/microsoft.graph.keyValuePair'
-          description: Any additional information about the cloud PC status.
         code:
           type: string
-          description: The code associated with the cloud PC status.
           nullable: true
         message:
           type: string
-          description: The status message.
           nullable: true
       additionalProperties:
         type: object
@@ -17894,17 +17914,14 @@ components:
         endDateTime:
           pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
           type: string
-          description: 'The end time of the connection health check. The Timestamp type represents date and time information using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 is 2014-01-01T00:00:00Z.'
           format: date-time
         healthChecks:
           type: array
           items:
             $ref: '#/components/schemas/microsoft.graph.cloudPcOnPremisesConnectionHealthCheck'
-          description: All checks that are done on the connection.
         startDateTime:
           pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
           type: string
-          description: 'The start time of the connection health check. The Timestamp type represents date and time information using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 is 2014-01-01T00:00:00Z.'
           format: date-time
       additionalProperties:
         type: object
@@ -18072,10 +18089,8 @@ components:
       properties:
         displayName:
           type: string
-          description: Scope tag display name.
         roleScopeTagId:
           type: string
-          description: Scope tag ID.
       additionalProperties:
         type: object
     microsoft.graph.cloudPcAuditProperty:
@@ -18084,13 +18099,10 @@ components:
       properties:
         displayName:
           type: string
-          description: Display name.
         newValue:
           type: string
-          description: New value.
         oldValue:
           type: string
-          description: Old value.
           nullable: true
       additionalProperties:
         type: object
@@ -18100,10 +18112,8 @@ components:
       properties:
         name:
           type: string
-          description: Name for this key-value pair
         value:
           type: string
-          description: Value for this key-value pair
           nullable: true
       additionalProperties:
         type: object
@@ -18113,27 +18123,22 @@ components:
       properties:
         additionalDetails:
           type: string
-          description: Additional details about the health check or the recommended action.
           nullable: true
         displayName:
           type: string
-          description: The display name for this health check item.
           nullable: true
         endDateTime:
           pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
           type: string
-          description: The end time of the health check item. Read-only.
           format: date-time
         errorType:
           $ref: '#/components/schemas/microsoft.graph.cloudPcOnPremisesConnectionHealthCheckErrorType'
         recommendedAction:
           type: string
-          description: The recommended action to fix the corresponding error.
           nullable: true
         startDateTime:
           pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
           type: string
-          description: The start time of the health check item. Read-only.
           format: date-time
         status:
           $ref: '#/components/schemas/microsoft.graph.cloudPcOnPremisesConnectionStatus'

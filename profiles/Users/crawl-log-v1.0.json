@@ -13,11 +13,19 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
+    "/users/{user-id}/createdObjects/{directoryObject-id}/$ref": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.yml"
+    },
     "/users/{user-id}/createdObjects/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
     "/users/{user-id}/directReports": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.yml"
+    },
+    "/users/{user-id}/directReports/{directoryObject-id}/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
@@ -53,11 +61,19 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
+    "/users/{user-id}/memberOf/{directoryObject-id}/$ref": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.yml"
+    },
     "/users/{user-id}/memberOf/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
     "/users/{user-id}/oauth2PermissionGrants": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.yml"
+    },
+    "/users/{user-id}/oauth2PermissionGrants/{oAuth2PermissionGrant-id}/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
@@ -81,11 +97,19 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
+    "/users/{user-id}/ownedDevices/{directoryObject-id}/$ref": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.yml"
+    },
     "/users/{user-id}/ownedDevices/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
     "/users/{user-id}/ownedObjects": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.yml"
+    },
+    "/users/{user-id}/ownedObjects/{directoryObject-id}/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
@@ -114,6 +138,10 @@
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
     "/users/{user-id}/registeredDevices": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.yml"
+    },
+    "/users/{user-id}/registeredDevices/{directoryObject-id}/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
@@ -174,6 +202,10 @@
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },
     "/users/{user-id}/transitiveMemberOf": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.yml"
+    },
+    "/users/{user-id}/transitiveMemberOf/{directoryObject-id}/$ref": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.yml"
     },

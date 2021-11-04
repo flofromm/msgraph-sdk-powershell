@@ -129,11 +129,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/classes/{educationClass-id}/members/$ref": {
+    "/education/classes/{educationClass-id}/members/{educationUser-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/classes/{educationClass-id}/members/microsoft.graph.delta()": {
+    "/education/classes/{educationClass-id}/members/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
@@ -141,11 +141,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/classes/{educationClass-id}/schools/$ref": {
+    "/education/classes/{educationClass-id}/schools/{educationSchool-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/classes/{educationClass-id}/schools/microsoft.graph.delta()": {
+    "/education/classes/{educationClass-id}/schools/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
@@ -153,11 +153,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/classes/{educationClass-id}/teachers/$ref": {
+    "/education/classes/{educationClass-id}/teachers/{educationUser-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/classes/{educationClass-id}/teachers/microsoft.graph.delta()": {
+    "/education/classes/{educationClass-id}/teachers/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
@@ -261,11 +261,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/me/classes/$ref": {
+    "/education/me/classes/{educationClass-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/me/classes/microsoft.graph.delta()": {
+    "/education/me/classes/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
@@ -281,11 +281,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/me/schools/$ref": {
+    "/education/me/schools/{educationSchool-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/me/schools/microsoft.graph.delta()": {
+    "/education/me/schools/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
@@ -293,11 +293,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/me/taughtClasses/$ref": {
+    "/education/me/taughtClasses/{educationClass-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/me/taughtClasses/microsoft.graph.delta()": {
+    "/education/me/taughtClasses/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
@@ -329,11 +329,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/schools/{educationSchool-id}/classes/$ref": {
+    "/education/schools/{educationSchool-id}/classes/{educationClass-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/schools/{educationSchool-id}/classes/microsoft.graph.delta()": {
+    "/education/schools/{educationSchool-id}/classes/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
@@ -341,11 +341,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/schools/{educationSchool-id}/users/$ref": {
+    "/education/schools/{educationSchool-id}/users/{educationUser-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/schools/{educationSchool-id}/users/microsoft.graph.delta()": {
+    "/education/schools/{educationSchool-id}/users/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
@@ -493,11 +493,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/users/{educationUser-id}/classes/$ref": {
+    "/education/users/{educationUser-id}/classes/{educationClass-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/users/{educationUser-id}/classes/microsoft.graph.delta()": {
+    "/education/users/{educationUser-id}/classes/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
@@ -513,11 +513,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/users/{educationUser-id}/schools/$ref": {
+    "/education/users/{educationUser-id}/schools/{educationSchool-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/users/{educationUser-id}/schools/microsoft.graph.delta()": {
+    "/education/users/{educationUser-id}/schools/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
@@ -525,11 +525,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/users/{educationUser-id}/taughtClasses/$ref": {
+    "/education/users/{educationUser-id}/taughtClasses/{educationClass-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
-    "/education/users/{educationUser-id}/taughtClasses/microsoft.graph.delta()": {
+    "/education/users/{educationUser-id}/taughtClasses/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Education.yml"
     },
