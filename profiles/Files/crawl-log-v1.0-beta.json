@@ -13,82 +13,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/drives/{drive-id}/bundles": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -98,82 +22,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/drives/{drive-id}/bundles/{driveItem-id}/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -206,34 +54,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -337,107 +157,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/drives/{drive-id}/following/{driveItem-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/children": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/children/{driveItem-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/children/{driveItem-id1}/content": {
+    "/drives/{drive-id}/following/{driveItem-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -445,135 +165,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/permissions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/permissions/{permission-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/permissions/{permission-id}/microsoft.graph.grant": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/permissions/{permission-id}/microsoft.graph.revokeGrants": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/subscriptions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/subscriptions/{subscription-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/thumbnails": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/thumbnails/{thumbnailSet-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/versions/{driveItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/versions/{driveItemVersion-id}/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/following/{driveItem-id}/versions/{driveItemVersion-id}/microsoft.graph.restoreVersion": {
+    "/drives/{drive-id}/following/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -586,82 +178,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/drives/{drive-id}/items/{driveItem-id}/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -694,34 +210,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/drives/{drive-id}/items/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -826,82 +314,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/drives/{drive-id}/list/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -1029,34 +441,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/drives/{drive-id}/list/items/{listItem-id}/analytics": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -1133,82 +517,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/drives/{drive-id}/root/analytics": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -1238,34 +546,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/drives/{drive-id}/root/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -1377,82 +657,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/drives/{drive-id}/special/{driveItem-id}/analytics": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -1482,34 +686,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/drives/{drive-id}/special/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -1625,70 +801,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/groups/{group-id}/drives/{drive-id}/bundles": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -1698,70 +810,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -1794,26 +842,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -1893,95 +921,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/children": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/children/{driveItem-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/children/{driveItem-id1}/content": {
+    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -1989,103 +929,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/permissions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/permissions/{permission-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/subscriptions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/subscriptions/{subscription-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/thumbnails": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/thumbnails/{thumbnailSet-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/versions/{driveItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/following/{driveItem-id}/versions/{driveItemVersion-id}/content": {
+    "/groups/{group-id}/drives/{drive-id}/following/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -2098,70 +942,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -2194,26 +974,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -2294,70 +1054,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/groups/{group-id}/drives/{drive-id}/list/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -2461,26 +1157,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/groups/{group-id}/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/groups/{group-id}/drives/{drive-id}/list/items/{listItem-id}/analytics": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -2533,70 +1209,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/groups/{group-id}/drives/{drive-id}/root/analytics": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -2626,26 +1238,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/groups/{group-id}/drives/{drive-id}/root/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/listItem": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -2733,70 +1325,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/analytics": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -2826,26 +1354,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/groups/{group-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -2962,82 +1470,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/shares/{sharedDriveItem-id}/list/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -3165,34 +1597,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/shares/{sharedDriveItem-id}/list/items/{listItem-id}/analytics": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -3254,34 +1658,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/shares/{sharedDriveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -3377,70 +1753,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/users/{user-id}/drives/{drive-id}/bundles": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -3450,70 +1762,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -3546,26 +1794,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -3645,95 +1873,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/children": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/children/{driveItem-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/children/{driveItem-id1}/content": {
+    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -3741,103 +1881,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/permissions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/permissions/{permission-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/subscriptions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/subscriptions/{subscription-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/thumbnails": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/thumbnails/{thumbnailSet-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/versions/{driveItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/versions/{driveItemVersion-id}/content": {
+    "/users/{user-id}/drives/{drive-id}/following/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -3850,70 +1894,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -3946,26 +1926,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -4046,70 +2006,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/users/{user-id}/drives/{drive-id}/list/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -4213,26 +2109,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/users/{user-id}/drives/{drive-id}/list/items/{listItem-id}/analytics": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -4285,70 +2161,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/users/{user-id}/drives/{drive-id}/root/analytics": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -4378,26 +2190,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/users/{user-id}/drives/{drive-id}/root/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/listItem": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
@@ -4485,70 +2277,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
     "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/analytics": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
@@ -4578,26 +2306,6 @@
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
     "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Files.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Files.yml"
     },
