@@ -103,7 +103,7 @@ $NumberOfCores = ((Get-ComputerInfo -Property CsProcessors).CsProcessors.NumberO
 Write-Host -ForegroundColor Green "Using '$NumberOfCores' cores in parallel."
 
 $Stopwatch = [system.diagnostics.stopwatch]::StartNew()
-$ModulesToGenerate | ForEach-Object -ThrottleLimit $NumberOfCores -Parallel {
+$ModulesToGenerate | ForEach-Object {
     enum VersionState {
         Invalid
         Valid
@@ -112,12 +112,12 @@ $ModulesToGenerate | ForEach-Object -ThrottleLimit $NumberOfCores -Parallel {
     }
 
     $ModuleName = $_
-    $FullyQualifiedModuleName = "$using:ModulePrefix.$ModuleName"
+    $FullyQualifiedModuleName = "$ModulePrefix.$ModuleName"
     Write-Host -ForegroundColor Green "Generating '$FullyQualifiedModuleName' module..."
-    $ModuleProjectDir = Join-Path $Using:ModulesOutputDir "$ModuleName\$ModuleName"
+    $ModuleProjectDir = Join-Path $ModulesOutputDir "$ModuleName\$ModuleName"
 
     # Test to see if a module's profile exists.
-    $ProfileReadmePath = Join-Path -Path $Using:ScriptRoot "..\profiles\$ModuleName\readme.md"
+    $ProfileReadmePath = Join-Path -Path $ScriptRoot "..\profiles\$ModuleName\readme.md"
     if (!(Test-Path -Path $ProfileReadmePath)) {
         Write-Warning "[Generation skipped] : Module '$ModuleName' not found at $ProfileReadmePath."
         break
@@ -126,30 +126,30 @@ $ModulesToGenerate | ForEach-Object -ThrottleLimit $NumberOfCores -Parallel {
     # Copy AutoRest readme.md config is none exists.
     if (-not (Test-Path "$ModuleProjectDir\readme.md")) {
         New-Item -Path $ModuleProjectDir -Type Directory -Force
-        Copy-Item (Join-Path $Using:ScriptRoot "\Templates\readme.md") -Destination $ModuleProjectDir
+        Copy-Item (Join-Path $ScriptRoot "\Templates\readme.md") -Destination $ModuleProjectDir
     }
 
     $ModuleLevelReadMePath = Join-Path $ModuleProjectDir "\readme.md" -Resolve
 
     # Read specified module version from readme.
-    $ModuleVersion = & $Using:ReadModuleReadMePS1 -ReadMePath $ModuleLevelReadMePath -FieldToRead "module-version"
+    $ModuleVersion = & $ReadModuleReadMePS1 -ReadMePath $ModuleLevelReadMePath -FieldToRead "module-version"
     if ($ModuleVersion -eq $null) {
         # Module version not set in readme.md.
         Write-Error "Version number is not set on $FullyQualifiedModuleName module. Please set 'module-version' in $ModuleLevelReadMePath."
     }
 
     # Validate module version with the one on PSGallery.
-    [VersionState] $VersionState = & $Using:ValidateUpdatedModuleVersionPS1 -ModuleName "$FullyQualifiedModuleName" -NextVersion $ModuleVersion -PSRepository RepositoryName -ModulePreviewNumber $ModulePreviewNumber
+    [VersionState] $VersionState = & $ValidateUpdatedModuleVersionPS1 -ModuleName "$FullyQualifiedModuleName" -NextVersion $ModuleVersion -PSRepository RepositoryName -ModulePreviewNumber $ModulePreviewNumber
 
-    if ($VersionState.Equals([VersionState]::Invalid) -and !$Using:SkipVersionCheck) {
-        Write-Warning "The specified version in $FullyQualifiedModuleName module is either higher or lower than what's on $Using:RepositoryName. Update the 'module-version' in $ModuleLevelReadMePath"
+    if ($VersionState.Equals([VersionState]::Invalid) -and !$SkipVersionCheck) {
+        Write-Warning "The specified version in $FullyQualifiedModuleName module is either higher or lower than what's on $RepositoryName. Update the 'module-version' in $ModuleLevelReadMePath"
     }
     elseif ($VersionState.Equals([VersionState]::EqualToFeed) -and !$SkipVersionCheck) {
-        Write-Warning "$FullyQualifiedModuleName module skipped. Version has not changed and is equal to what's on $Using:RepositoryName."
+        Write-Warning "$FullyQualifiedModuleName module skipped. Version has not changed and is equal to what's on $RepositoryName."
     }
-    elseif ($VersionState.Equals([VersionState]::Valid) -or $VersionState.Equals([VersionState]::NotOnFeed) -or $Using:SkipVersionCheck) {
+    elseif ($VersionState.Equals([VersionState]::Valid) -or $VersionState.Equals([VersionState]::NotOnFeed) -or $SkipVersionCheck) {
         # Read release notes from readme.
-        $ModuleReleaseNotes = & $Using:ReadModuleReadMePS1 -ReadMePath $ModuleLevelReadMePath -FieldToRead "release-notes"
+        $ModuleReleaseNotes = & $ReadModuleReadMePS1 -ReadMePath $ModuleLevelReadMePath -FieldToRead "release-notes"
         if ($ModuleReleaseNotes -eq $null) {
             # Release notes not set in readme.md.
             Write-Error "Release notes not set on $FullyQualifiedModuleName module. Please set 'release-notes' in $ModuleLevelReadMePath."
@@ -166,16 +166,16 @@ $ModulesToGenerate | ForEach-Object -ThrottleLimit $NumberOfCores -Parallel {
 
             # Manage generated module.
             Write-Host -ForegroundColor Green "Managing '$FullyQualifiedModuleName' module..."
-            & $Using:ManageGeneratedModulePS1 -Module $ModuleName -ModulePrefix $Using:ModulePrefix
+            & $ManageGeneratedModulePS1 -Module $ModuleName -ModulePrefix $ModulePrefix
 
-            if ($Using:Build) {
+            if ($Build) {
                 # Build generated module.
-                if ($Using:EnableSigning) {
+                if ($EnableSigning) {
                     # Sign generated module.
-                    & $Using:BuildModulePS1 -Module $ModuleName -ModulePrefix $Using:ModulePrefix -ModuleVersion $ModuleVersion -ModulePreviewNumber $Using:ModulePreviewNumber -RequiredModules $Using:RequiredGraphModules -ReleaseNotes $ModuleReleaseNotes -EnableSigning -ExcludeExampleTemplates:$Using:ExcludeExampleTemplates -ExcludeNotesSection:$Using:ExcludeNotesSection
+                    & $BuildModulePS1 -Module $ModuleName -ModulePrefix $ModulePrefix -ModuleVersion $ModuleVersion -ModulePreviewNumber $ModulePreviewNumber -RequiredModules $RequiredGraphModules -ReleaseNotes $ModuleReleaseNotes -EnableSigning -ExcludeExampleTemplates:$ExcludeExampleTemplates -ExcludeNotesSection:$ExcludeNotesSection
                 }
                 else {
-                    & $Using:BuildModulePS1 -Module $ModuleName -ModulePrefix $Using:ModulePrefix -ModuleVersion $ModuleVersion -ModulePreviewNumber $Using:ModulePreviewNumber -RequiredModules $Using:RequiredGraphModules -ReleaseNotes $ModuleReleaseNotes -ExcludeExampleTemplates:$Using:ExcludeExampleTemplates -ExcludeNotesSection:$Using:ExcludeNotesSection
+                    & $BuildModulePS1 -Module $ModuleName -ModulePrefix $ModulePrefix -ModuleVersion $ModuleVersion -ModulePreviewNumber $ModulePreviewNumber -RequiredModules $RequiredGraphModules -ReleaseNotes $ModuleReleaseNotes -ExcludeExampleTemplates:$ExcludeExampleTemplates -ExcludeNotesSection:$ExcludeNotesSection
                 }
 
                 # Get profiles for generated modules.
@@ -224,13 +224,13 @@ $ModulesToGenerate | ForEach-Object -ThrottleLimit $NumberOfCores -Parallel {
                 } | Set-Content $InternalModulePsm1
             }
 
-            if ($Using:Test) {
-                & $Using:TestModulePS1 -ModulePath $ModuleProjectDir -ModuleName $FullyQualifiedModuleName -ModuleTestsPath (Join-Path $ModuleProjectDir "test")
+            if ($Test) {
+                & $TestModulePS1 -ModulePath $ModuleProjectDir -ModuleName $FullyQualifiedModuleName -ModuleTestsPath (Join-Path $ModuleProjectDir "test")
             }
 
-            if ($Using:Pack) {
+            if ($Pack) {
                 # Pack generated module.
-                . $Using:PackModulePS1 -Module $ModuleName -ArtifactsLocation $Using:ArtifactsLocation -ExcludeMarkdownDocsFromNugetPackage
+                . $PackModulePS1 -Module $ModuleName -ArtifactsLocation $ArtifactsLocation -ExcludeMarkdownDocsFromNugetPackage
             }
 
             Write-Host -ForeGroundColor Green "Generating $ModuleName Completed"
