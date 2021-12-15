@@ -648,6 +648,8 @@ paths:
                 - lastUpdatedDateTime desc
                 - topic
                 - topic desc
+                - webUrl
+                - webUrl desc
               type: string
         - name: $select
           in: query
@@ -664,6 +666,7 @@ paths:
                 - createdDateTime
                 - lastUpdatedDateTime
                 - topic
+                - webUrl
                 - installedApps
                 - members
                 - messages
@@ -759,6 +762,7 @@ paths:
                 - createdDateTime
                 - lastUpdatedDateTime
                 - topic
+                - webUrl
                 - installedApps
                 - members
                 - messages
@@ -13436,6 +13440,8 @@ paths:
                 - lastUpdatedDateTime desc
                 - topic
                 - topic desc
+                - webUrl
+                - webUrl desc
               type: string
         - name: $select
           in: query
@@ -13452,6 +13458,7 @@ paths:
                 - createdDateTime
                 - lastUpdatedDateTime
                 - topic
+                - webUrl
                 - installedApps
                 - members
                 - messages
@@ -13562,6 +13569,7 @@ paths:
                 - createdDateTime
                 - lastUpdatedDateTime
                 - topic
+                - webUrl
                 - installedApps
                 - members
                 - messages
@@ -14442,6 +14450,7 @@ paths:
                 - createdDateTime
                 - lastUpdatedDateTime
                 - topic
+                - webUrl
                 - installedApps
                 - members
                 - messages
@@ -14709,6 +14718,10 @@ components:
             topic:
               type: string
               description: (Optional) Subject or topic for the chat. Only available for group chats.
+              nullable: true
+            webUrl:
+              type: string
+              description: 'A hyperlink that will go to the chat in Microsoft Teams. This URL should be treated as an opaque blob, and not parsed. Read-only.'
               nullable: true
             installedApps:
               type: array
@@ -15247,7 +15260,7 @@ components:
               nullable: true
             mailNickname:
               type: string
-              description: 'The mail alias for the group, unique in the organization. Maximum length is 64 characters. This property can contain only characters in the ASCII character set 0 - 127 except the following: @ () / [] '' ; : . <> , SPACE. Required. Returned by default. Supports $filter (eq, ne, not, ge, le, in, startsWith, and eq on null values).'
+              description: 'The mail alias for the group, unique for Microsoft 365 groups in the organization. Maximum length is 64 characters. This property can contain only characters in the ASCII character set 0 - 127 except the following: @ () / [] '' ; : . <> , SPACE. Required. Returned by default. Supports $filter (eq, ne, not, ge, le, in, startsWith, and eq on null values).'
               nullable: true
             membershipRule:
               type: string

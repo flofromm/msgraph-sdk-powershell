@@ -16970,7 +16970,7 @@ components:
           properties:
             adDomainName:
               type: string
-              description: The fully qualified domain name (FQDN) of the Active Directory domain you want to join.
+              description: The fully qualified domain name (FQDN) of the Active Directory domain you want to join. Optional.
               nullable: true
             adDomainPassword:
               type: string
@@ -16978,7 +16978,7 @@ components:
               nullable: true
             adDomainUsername:
               type: string
-              description: 'The username of an Active Directory account (user or service account) that has permissions to create computer objects in Active Directory. Required format: admin@contoso.com.'
+              description: 'The username of an Active Directory account (user or service account) that has permissions to create computer objects in Active Directory. Required format: admin@contoso.com. Optional.'
               nullable: true
             displayName:
               type: string
@@ -18061,6 +18061,7 @@ components:
       properties:
         profile:
           type: string
+          description: The name of the Microsoft Managed Desktop profile that the Windows 365 Cloud PC is associated with.
           nullable: true
         type:
           $ref: '#/components/schemas/microsoft.graph.microsoftManagedDesktopType'
