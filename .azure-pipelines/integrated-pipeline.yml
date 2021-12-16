@@ -76,7 +76,8 @@ stages:
 - stage: SecurityPreChecks
   displayName: 'Security Pre Checks'
   jobs:
-  - template: ./common-templates/security-prechecks-template.yml
+  steps:
+    - template: ./common-templates/security-prechecks-template.yml
 
 - stage: GenerateAuthModule
   displayName: 'Generate Authentication Module (Microsoft.Graph.Authentication)'
@@ -120,4 +121,5 @@ stages:
 - stage: SecurityPostChecks
   displayName: 'Security Post Checks'
   jobs:
-  - template: ./common-templates/security-postchecks-template.yml
+  steps:
+    - template: ./common-templates/security-postchecks-template.yml
